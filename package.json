@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha 'test/test.js' --timeout 10000 --compilers js:babel-core/register --exit",
-    "start": "NODE_ENV=test nodemon ./index.js --exec babel-node -e js"
+    "start": "NODE_ENV=development nodemon ./index.js --exec babel-node -e js"
   },
   "author": "Evan Dweck",
   "license": "ISC",
