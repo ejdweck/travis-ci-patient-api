@@ -1,3 +1,5 @@
+before_install:
+  - npm install -g babel-cli
 language: node_js
 node_js:
   - "iojs"
